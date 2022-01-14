@@ -1,0 +1,33 @@
+:root {
+  --small_size: 30px;
+  --big_size: 50px;
+  --main__color: yellow;
+}
+@media only screen and (max-width: 1200px) {
+  :root {
+    --small_size: 20px;
+    --big_size: 40px;
+    --main__color: red;
+  }
+}
+@media only screen and (max-width: 767px) {
+  :root {
+    --small_size: 20px;
+    --big_size: 40px;
+    --main__color: violet;
+  }
+}
+
+.heading {
+  color: green;
+  font-size: var(--small_size);
+}
+.heading2 {
+  font-size: var(--small_size);
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: var(--main__color);
+}
