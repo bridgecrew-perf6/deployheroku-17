@@ -1,7 +1,7 @@
 :root {
   --small_size: 30px;
   --big_size: 50px;
-  --main__color: yellow;
+  --main__color: black;
 }
 @media only screen and (max-width: 1200px) {
   :root {
